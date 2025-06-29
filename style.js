@@ -17,3 +17,20 @@
         quantityValue.textContent = count;
       }
     });
+    
+    // bars
+
+   const burger = document.getElementById("burger");     
+    const closeBtn = document.getElementById("closeBtn"); 
+    const sidebar = document.getElementById("sidebar");   
+
+//open list
+    burger.addEventListener("click", () => {
+      sidebar.classList.add("active");
+    });
+
+  //close list
+    closeBtn.addEventListener("click", () => {
+      sidebar.classList.remove("active");
+    });
+  
