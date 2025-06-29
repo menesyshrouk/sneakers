@@ -75,14 +75,14 @@ body {
 .sidebar {
   position: fixed;
   top: 0;
-  right:-250px;
+  left:-250px;
   width: 250px;
   height: 100vh;
   background-color: #fff;
   box-shadow: -2px 0 8px rgba(0, 0, 0, 0.1);
   padding: 30px 20px;
-  transition: right 0.3s ease-in-out;
-  z-index: 9999999999;
+  transition: left 0.3s ease-in-out;
+  z-index: 99999;
 }
 
 .sidebar.active {
@@ -254,9 +254,8 @@ body {
   background-color: darkorange;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
-  .body{
+  body{
     padding: 10px;
   }
   .bars {
