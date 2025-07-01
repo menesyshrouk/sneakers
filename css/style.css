@@ -19,8 +19,6 @@ body {
   padding: 20px 50px;
   border-bottom: 1px solid #eee;
   background-color: white;
-  position: relative;
-  z-index: 1000;
 }
 
 .navbar-left {
